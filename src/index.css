@@ -1,13 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #ccc;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-repeat: no-repeat;
+  background: url(./assets/img/dragon-balls-dragon.gif) no-repeat center center
+    fixed;
+  background-size: 100% 100%;
+  margin-bottom: 110px;
+}
+.header_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  width: 250px;
+  height: 220px;
+  background-color: #0b0658;
+  margin: 3px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  border: solid 2px #1100ff;
+  border-radius: 10px;
+}
+
+img {
+  width: 246px;
+  height: 140px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: small;
+}
+p {
+  margin-top: 5px;
+}
+
+.footer_gallery {
+  text-align: center;
+  background-color: #0b0658;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+}
+
+h4 {
+  margin-top: 5px;
 }
