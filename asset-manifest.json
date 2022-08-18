@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gallery/static/css/main.14198340.css",
-    "main.js": "/react-gallery/static/js/main.9c33b164.js",
+    "main.js": "/react-gallery/static/js/main.09fab1ab.js",
     "static/media/roshi11.gif": "/react-gallery/static/media/roshi11.ab172df918c6ce993665.gif",
     "static/media/dragon-balls-dragon.gif": "/react-gallery/static/media/dragon-balls-dragon.d4477848c42d3dd5cdff.gif",
     "static/media/gk4.gif": "/react-gallery/static/media/gk4.c93053f202aa695b58ea.gif",
@@ -14,10 +14,10 @@
     "static/media/esfera.png": "/react-gallery/static/media/esfera.33489beb3832a8ab0f50.png",
     "index.html": "/react-gallery/index.html",
     "main.14198340.css.map": "/react-gallery/static/css/main.14198340.css.map",
-    "main.9c33b164.js.map": "/react-gallery/static/js/main.9c33b164.js.map"
+    "main.09fab1ab.js.map": "/react-gallery/static/js/main.09fab1ab.js.map"
   },
   "entrypoints": [
     "static/css/main.14198340.css",
-    "static/js/main.9c33b164.js"
+    "static/js/main.09fab1ab.js"
   ]
 }
