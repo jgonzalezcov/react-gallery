@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Gallery from './components/Gallery.jsx'
+import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
+import React from 'react'
+import ArrayInfo from './components/ArrayInfo.jsx'
 
+const heroeImages = require.context('./assets/img', true)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        title="Galería Dragon Ball Super (ReactJs)"
+        alignment="center"
+        classname="header_title"
+      />
+      <div className="card_container">
+        {ArrayInfo.map((e) => (
+          <Gallery
+            key={e.id}
+            srcs={heroeImages(e.srcs)}
+            alt={e.alt}
+            name={e.nombre}
+            category={e.raza}
+          />
+        ))}
+      </div>
+      <Footer />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
