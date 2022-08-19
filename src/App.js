@@ -13,7 +13,7 @@ function App() {
         alignment="center"
         classname="header_title"
       />
-      <div className="card_container">
+      <main className="card_container">
         {ArrayInfo.map((e) => (
           <Gallery
             key={e.id}
@@ -23,7 +23,7 @@ function App() {
             category={e.raza}
           />
         ))}
-      </div>
+      </main>
       <Footer />
     </div>
   )
