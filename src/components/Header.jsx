@@ -1,11 +1,11 @@
 import React from 'react'
 const Header = (props) => {
   return (
-    <div>
+    <header>
       <h1 style={{ textAlign: props.alignment }} className={props.classname}>
         {props.title}
       </h1>
-    </div>
+    </header>
   )
 }
 export default Header
